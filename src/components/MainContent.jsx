@@ -26,7 +26,21 @@ function MainContent() {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr className='table-danger-bg'>
+                                    <th scope="row"><i class="fa-solid fa-arrow-down-long"></i></th>
+                                    <td className='content-tab'>
+                                        <span className='coin-bg'></span>
+                                        <span>
+                                            <h4>Gram Altin</h4>
+                                            <p>Gram Altin</p>
+                                        </span>
+                                    </td>
+                                    <td>2459, 265 TL</td>
+                                    <td>2459, 265 TL</td>
+                                    <td>2459, 265 TL</td>
+                                    <td>%0,9</td>
+                                </tr>
+                                <tr className='table-danger-bg'>
                                     <th scope="row"><i class="fa-solid fa-arrow-down-long"></i></th>
                                     <td className='content-tab'>
                                         <span className='coin-bg'></span>
@@ -41,68 +55,54 @@ function MainContent() {
                                     <td>%0,9</td>
                                 </tr>
                                 <tr>
+                                    <th scope="row"><i class="fa-solid fa-minus"></i></th>
+                                    <td className='content-tab'>
+                                        <span className='coin-bg'></span>
+                                        <span>
+                                            <h4>Yarim Altin</h4>
+                                            <p>Yarim Altin</p>
+                                        </span>
+                                    </td>
+                                    <td>2459, 265 TL</td>
+                                    <td>2459, 265 TL</td>
+                                    <td>2459, 265 TL</td>
+                                    <td>%0,9</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><i class="fa-solid fa-minus"></i></th>
+                                    <td className='content-tab'>
+                                        <span className='coin-bg'></span>
+                                        <span>
+                                            <h4>Tam Altin</h4>
+                                            <p>Tam Altin</p>
+                                        </span>
+                                    </td>
+                                    <td>2459, 265 TL</td>
+                                    <td>2459, 265 TL</td>
+                                    <td>2459, 265 TL</td>
+                                    <td>%0,9</td>
+                                </tr>
+                                <tr className='table-success-bg'>
+                                    <th scope="row"><i class="fa-solid fa-arrow-up-long"></i></th>
+                                    <td className='content-tab'>
+                                        <span className='coin-bg'></span>
+                                        <span>
+                                            <h4>Gremese Altin</h4>
+                                            <p>Gremese Altin</p>
+                                        </span>
+                                    </td>
+                                    <td>2459, 265 TL</td>
+                                    <td>2459, 265 TL</td>
+                                    <td>2459, 265 TL</td>
+                                    <td>%0,9</td>
+                                </tr>
+                                <tr>
                                     <th scope="row"><i class="fa-solid fa-arrow-down-long"></i></th>
                                     <td className='content-tab'>
                                         <span className='coin-bg'></span>
                                         <span>
-                                            <h4>Gram Altin</h4>
-                                            <p>Gram Altin</p>
-                                        </span>
-                                    </td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>%0,9</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td className='content-tab'>
-                                        <span className='coin-bg'></span>
-                                        <span>
-                                            <h4>Gram Altin</h4>
-                                            <p>Gram Altin</p>
-                                        </span>
-                                    </td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>%0,9</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td className='content-tab'>
-                                        <span className='coin-bg'></span>
-                                        <span>
-                                            <h4>Gram Altin</h4>
-                                            <p>Gram Altin</p>
-                                        </span>
-                                    </td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>%0,9</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td className='content-tab'>
-                                        <span className='coin-bg'></span>
-                                        <span>
-                                            <h4>Gram Altin</h4>
-                                            <p>Gram Altin</p>
-                                        </span>
-                                    </td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>%0,9</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td className='content-tab'>
-                                        <span className='coin-bg'></span>
-                                        <span>
-                                            <h4>Gram Altin</h4>
-                                            <p>Gram Altin</p>
+                                            <h4>Onis Altin</h4>
+                                            <p>Onis Altin</p>
                                         </span>
                                     </td>
                                     <td>2459, 265 TL</td>

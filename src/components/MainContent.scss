@@ -11,6 +11,25 @@
       &.middle-col {
         table {
           margin-top: 50px;
+          tr.table-danger-bg{
+            background-color: #f7b8b8;
+            > *{
+                background-color: transparent;
+            }
+            i{
+                color: #d14e47;
+            }
+          }
+          tr.table-success-bg{
+            background-color: #c8f7b8;
+            > *{
+                background-color: transparent;
+            }
+            i{
+                color: #57b263;
+            }
+          }
+          
           tr {
             vertical-align: middle;
             td.content-tab {
