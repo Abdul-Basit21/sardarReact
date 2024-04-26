@@ -32,10 +32,13 @@
           
           tr {
             vertical-align: middle;
+            border-color: #f1f0f7;
+            height: 64px;
             td.content-tab {
               display: flex;
               align-items: center;
               gap: 10px;
+              height: 64.5px !important;
               span.coin-bg {
                 display: block;
                 width: 35px;
