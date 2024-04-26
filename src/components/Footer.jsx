@@ -4,6 +4,7 @@ import LogoWhite from "../images/LogoWhite.svg";
 import Sabah from "../images/Sabah.svg";
 import Obilet from "../images/Obilet.svg";
 import Spotify from "../images/Spotify.svg";
+import appStore from "../images/appStrore.svg";
 
 
 function Footer() {
@@ -104,9 +105,17 @@ function Footer() {
                                 <i class="fa-solid fa-gift"></i>
                                 <p className="form-footer-para">Sign up now and get upto 100USDT in rewards.</p>
                             </div>
-                            
+
                         </div>
-                            <hr className='footer-hr'/>
+                        <hr className='footer-hr' />
+                    </div>
+                    <div className="row footer-apps-wrap d-flex align-items-center">
+                        <div className="col-sm-12 col-md-6 col-lg-6">
+                            <img src={appStore} alt="" />
+                        </div>
+                        <div className="col-sm-12 col-md-6 col-lg-6">
+                            <p className="footer-copyright">Copyright © 2024 Her Hakki Saklidir. Noktacom Medya İnternet Hiz. San. ve Tic. A.Ş.</p>
+                        </div>
                     </div>
                 </div>
             </div>
