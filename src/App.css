@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+::selection {
+  background-color: #f0b90b;
+  color: #000;
+}
 
 body {
   font-family: "Inter", sans-serif;
 }
 
-.bg-custom-dark{
-    background-color: #181A1F;
+.bg-custom-dark {
+  background-color: #181a1f;
 }

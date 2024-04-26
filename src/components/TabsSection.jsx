@@ -31,7 +31,7 @@ const TabsSection = () => {
             value.status == "up" ? "green" : "red"
           } d-flex align-items-center gap-2`}
         >
-          <img src={value.status == 'up' ? arrow_green:arrow_red} alt="arrow-green" />
+          <img src={value.status == 'up' ? arrow_green:arrow_red} alt={'arrow-'+value.status} />
           <span className="percent__">{value.percent}</span>
           <span className="number__">{value.number}</span>
         </div>
