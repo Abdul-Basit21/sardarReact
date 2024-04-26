@@ -114,6 +114,84 @@ function MainContent() {
                             </tbody>
                         </table>
 
+                        <div className="row">
+                            <div className="col-lg-7 col-sm-6 col-sm-12 black-box-col">
+                                <h3 className="black-bg-head">Altin Fiyati Hesaplama</h3>
+                                <hr className='blag-bg-hr' />
+                                <div className="select-dd-wrap">
+
+                                </div>
+                            </div>
+                            <div className="col-lg-5 col-sm-12 col-md-6">
+                                <h3 className="black-bg-head">DOVIZ</h3>
+
+                                <div className="country-est-list">
+                                    <ul>
+                                        <li>
+                                            <div className="est-left">
+                                                <span className="country">USD</span>
+                                                <span className="currency">DOLAR</span>
+                                            </div>
+                                            <div className="est-right">
+                                                <span className="rate-disabled">32.3312</span>
+                                                <span className="rate-current">32.373</span>
+                                                <span className="rate-percentage">%0.22</span>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div className="est-left">
+                                                <span className="country">USD</span>
+                                                <span className="currency">DOLAR</span>
+                                            </div>
+                                            <div className="est-right">
+                                                <span className="rate-disabled">32.3312</span>
+                                                <span className="rate-current">32.373</span>
+                                                <span className="rate-percentage">%0.22</span>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div className="est-left">
+                                                <span className="country">USD</span>
+                                                <span className="currency">DOLAR</span>
+                                            </div>
+                                            <div className="est-right">
+                                                <span className="rate-disabled">32.3312</span>
+                                                <span className="rate-current">32.373</span>
+                                                <span className="rate-percentage">%0.22</span>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div className="est-left">
+                                                <span className="country">USD</span>
+                                                <span className="currency">DOLAR</span>
+                                            </div>
+                                            <div className="est-right">
+                                                <span className="rate-disabled">32.3312</span>
+                                                <span className="rate-current">32.373</span>
+                                                <span className="rate-percentage">%0.22</span>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div className="est-left">
+                                                <span className="country">USD</span>
+                                                <span className="currency">DOLAR</span>
+                                            </div>
+                                            <div className="est-right">
+                                                <span className="rate-disabled">32.3312</span>
+                                                <span className="rate-current">32.373</span>
+                                                <span className="rate-percentage">%0.22</span>
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
 
 
 
@@ -122,6 +200,7 @@ function MainContent() {
                         <img src={AdsLarge} alt="" className="ad-side" />
                     </div>
                 </div>
+
             </div>
         </>
     )

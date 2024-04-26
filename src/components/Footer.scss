@@ -61,8 +61,10 @@
                     height: 57px;
                     background-color: transparent;
                     border-color: #848E9C;
+                    color: #fff;
                     &::placeholder{
                         color: #848E9C;
+                        font-weight: 600;
                     }
                     &:focus{
                         box-shadow: none;

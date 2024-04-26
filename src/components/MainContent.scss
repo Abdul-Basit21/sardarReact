@@ -1,5 +1,6 @@
 .addsTable-main-wrapper {
   margin-top: 50px;
+  padding-bottom: 100px;
   .row {
     > div {
       img {
@@ -76,7 +77,56 @@
             }
           }
         }
+        .black-box-col{
+            background-color: #181A1F;
+            padding: 24px 36px;
+            border-radius: 8px;
+            margin-top: 30px;
+            h3.black-bg-head{
+                color: #fff;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            hr.blag-bg-hr {
+                margin: 20px 0;
+                color: #848E9C;
+            }
+
+        }
+        .country-est-list{
+            ul{
+                padding: 0;
+                list-style-type: none;
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    div.est-left{
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        .country{
+                            color: #44996b;
+                        }
+                    }
+                    div.est-right{
+                        display: flex;
+                        align-items: center;
+                        gap: 15px;
+                        span.rate-disabled{
+                            color: #9daec3;
+                        }
+                    }
+                    &:not(:last-child){
+                        border-bottom: 1px solid #f1f0f7;
+                    }
+                }
+                
+            }
+        }
       }
     }
+    
   }
 }
