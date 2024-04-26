@@ -1,46 +1,60 @@
-.addsTable-main-wrapper{
-    margin-top: 50px;
-    .row{
-        > div{
-            img{
-                width: 100%;
-                &.ad-side{
-                    height: 500px;
-                }
-            }
-            &.middle-col{
-                table{
-                    margin-top: 50px;
-                    tr{ 
-                        vertical-align: middle;
-                        td.content-tab{
-                            display: flex;
-                            align-items: center;
-                            gap: 10px;
-                            span.coin-bg{
-                                display: block;
-                                width: 35px;
-                                height: 35px;
-                                border-radius: 50%;
-                                background-color: #fff296;
-                                border: 2px solid #fcd65a;
-                            }
-                            span{
-                                h4{
-                                    font-size: 18px;
-                                    font-weight: 600;
-                                    color: #000;
-                                    margin: 0;
-                                }
-                                p{
-                                    margin: 0;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
+.addsTable-main-wrapper {
+  margin-top: 50px;
+  .row {
+    > div {
+      img {
+        width: 100%;
+        &.ad-side {
+          height: 500px;
         }
-        
+      }
+      &.middle-col {
+        table {
+          margin-top: 50px;
+          tr {
+            vertical-align: middle;
+            td.content-tab {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              span.coin-bg {
+                display: block;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                border: 2px solid #fcd65a;
+                position: relative;
+                overflow: hidden;
+                &::before {
+                  content: "";
+                  background-color: #fcd75a;
+                  width: 100%;
+                  height: 100%;
+                  inset: 0;
+                  position: absolute;
+                  clip-path: polygon(
+                    56.41% 58.07%,
+                    51.61% -32.26%,
+                    -11px -25.81%,
+                    -32.26% 61.6%
+                  );
+                }
+              }
+              span {
+                h4 {
+                  font-size: 18px;
+                  font-weight: 600;
+                  color: #000;
+                  margin: 0;
+                }
+                p {
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
     }
+  }
 }
