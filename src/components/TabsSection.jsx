@@ -1,10 +1,47 @@
 import "./TabsSection.scss";
 import arrow_green from "../assets/arrow-green-up.svg";
 import arrow_red from "../assets/arrow-red-down.svg";
+import { useEffect } from "react";
+import tabs_data from "./TabsSectionConfig";
 const TabsSection = () => {
+  useEffect(() => {
+    // var myHeaders = new Headers();
+    // myHeaders.append("x-access-token", "goldapi-126tslvgu39sh-io");
+    // myHeaders.append("Content-Type", "application/json");
+    // var requestOptions = {
+    //   method: "GET",
+    //   headers: myHeaders,
+    //   redirect: "follow",
+    // };
+    // fetch("https://www.goldapi.io/api/XAU/USD", requestOptions)
+    //   .then((response) => response.text())
+    //   .then((result) => )
+    //   .catch((error) => console.log("error", error));
+  }, []);
+  const show_itmes = tabs_data.map((value, index) => {
+    return <div
+      key={index}
+      className="item d-flex align-items-center justify-content-center"
+    >
+      <div className="content d-flex flex-column gap-2">
+        <span className="title">{value.title}</span>
+        <span className="value">{value.rates}</span>
+        <div
+          className={`ratio__ ${
+            value.status == "up" ? "green" : "red"
+          } d-flex align-items-center gap-2`}
+        >
+          <img src={value.status == 'up' ? arrow_green:arrow_red} alt="arrow-green" />
+          <span className="percent__">{value.percent}</span>
+          <span className="number__">{value.number}</span>
+        </div>
+      </div>
+    </div>;
+  });
+
   return (
     <>
-      <div className="tabs-wrapper bg-dark py-5">
+      <div className="tabs-wrapper bg-custom-dark py-5">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -24,84 +61,23 @@ const TabsSection = () => {
           <div className="row mt-4">
             <div className="col-12">
               <div className="tabs-content d-grid gap-5">
-                <div className="item d-flex align-items-center justify-content-center">
-                  <div className="content d-flex flex-column gap-2">
-                    <span className="title">ALTIN ONS</span>
-                    <span className="value">2.492,87</span>
-                    <div className="ratio__ green d-flex align-items-center gap-2">
-                      <img src={arrow_green} alt="arrow-green" />
-                      <span className="percent__">%1,27</span>
-                      <span className="number__">11,27</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="item d-flex align-items-center justify-content-center">
-                  <div className="content d-flex flex-column gap-2">
-                    <span className="title">DOLAR</span>
-                    <span className="value">2.492,87</span>
-                    <div className="ratio__ green d-flex align-items-center gap-2">
-                      <img src={arrow_green} alt="arrow-green" />
-                      <span className="percent__">%1,27</span>
-                      <span className="number__">11,27</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="item d-flex align-items-center justify-content-center">
-                  <div className="content d-flex flex-column gap-2">
-                    <span className="title">EURO</span>
-                    <span className="value">2.492,87</span>
-                    <div className="ratio__ red d-flex align-items-center gap-2">
-                      <img src={arrow_red} alt="arrow-green" />
-                      <span className="percent__">%1,27</span>
-                      <span className="number__">11,27</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="item d-flex align-items-center justify-content-center">
-                  <div className="content d-flex flex-column gap-2">
-                    <span className="title">DOLAR</span>
-                    <span className="value">2.492,87</span>
-                    <div className="ratio__ green d-flex align-items-center gap-2">
-                      <img src={arrow_green} alt="arrow-green" />
-                      <span className="percent__">%1,27</span>
-                      <span className="number__">11,27</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="item d-flex align-items-center justify-content-center">
-                  <div className="content d-flex flex-column gap-2">
-                    <span className="title">DOLAR</span>
-                    <span className="value">2.492,87</span>
-                    <div className="ratio__ green d-flex align-items-center gap-2">
-                      <img src={arrow_green} alt="arrow-green" />
-                      <span className="percent__">%1,27</span>
-                      <span className="number__">11,27</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="item d-flex align-items-center justify-content-center">
-                  <div className="content d-flex flex-column gap-2">
-                    <span className="title">EURO</span>
-                    <span className="value">2.492,87</span>
-                    <div className="ratio__ red d-flex align-items-center gap-2">
-                      <img src={arrow_red} alt="arrow-green" />
-                      <span className="percent__">%1,27</span>
-                      <span className="number__">11,27</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="item d-flex align-items-center justify-content-center">
-                  <div className="content d-flex flex-column gap-2">
-                    <span className="title">EURO</span>
-                    <span className="value">2.492,87</span>
-                    <div className="ratio__ red d-flex align-items-center gap-2">
-                      <img src={arrow_red} alt="arrow-green" />
-                      <span className="percent__">%1,27</span>
-                      <span className="number__">11,27</span>
-                    </div>
-                  </div>
-                </div>
+                {/* items start */}
+                {show_itmes}
+                {/* items end */}
               </div>
+            </div>
+          </div>
+          <div className="row mt-4">
+            <div className="col-6">
+              <div className="left-info d-flex align-items-center gap-5">
+                <h5 className="info-title">SON HABERLER</h5>
+                <p>JPMorgan gelirlerini yüzde 9 artirdi</p>
+              </div>
+            </div>
+            <div className="col-6 right-info">
+              <a href="#!" className="all-news">
+                Tüm Haberler
+              </a>
             </div>
           </div>
         </div>

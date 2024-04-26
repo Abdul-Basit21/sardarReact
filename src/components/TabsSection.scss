@@ -30,12 +30,11 @@
     }
   }
   .tabs-content {
-    //     background-color: #1e2328;
-    background-color: #2b3138;
+    background-color: #1e2328;
     min-height: 200px;
     width: 100%;
     border-radius: 7px;
-    //     grid-template-columns: repeat(auto-fill, 132.567px);
+    //grid-template-columns: repeat(auto-fill, 132.567px);
     grid-template-columns: repeat(auto-fill, minmax(132.5px, 1fr));
     padding: 40px;
     .item {
@@ -72,5 +71,52 @@
         }
       }
     }
+  }
+  .left-info {
+    overflow: hidden;
+    h5,
+    p {
+      padding: 0;
+      margin: 0;
+    }
+    .info-title {
+      color: #f0b90b;
+      font-size: 15px;
+      font-weight: 700;
+      position: relative;
+      &::before {
+        content: "\f105";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        margin-right: 15px;
+      }
+    }
+    p {
+      font-size: 15px;
+      font-weight: 400;
+      color: #d8d8d8;
+      animation: slide 8s infinite linear;
+    }
+  }
+  .right-info {
+    text-align: right;
+    a {
+      color: #f0b90b;
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(200%);
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-10%);
+    opacity: 0;
   }
 }
