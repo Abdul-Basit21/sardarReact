@@ -1,0 +1,46 @@
+.addsTable-main-wrapper{
+    margin-top: 50px;
+    .row{
+        > div{
+            img{
+                width: 100%;
+                &.ad-side{
+                    height: 500px;
+                }
+            }
+            &.middle-col{
+                table{
+                    margin-top: 50px;
+                    tr{ 
+                        vertical-align: middle;
+                        td.content-tab{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            span.coin-bg{
+                                display: block;
+                                width: 35px;
+                                height: 35px;
+                                border-radius: 50%;
+                                background-color: #fff296;
+                                border: 2px solid #fcd65a;
+                            }
+                            span{
+                                h4{
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    color: #000;
+                                    margin: 0;
+                                }
+                                p{
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

@@ -102,7 +102,7 @@ function Footer() {
                                 <button className="btn btn-warning bg-warning" type="submit">Sign Up</button>
                             </form>
                             <div className='form-footer'>
-                                <i class="fa-solid fa-gift"></i>
+                                <i className="fa-solid fa-gift"></i>
                                 <p className="form-footer-para">Sign up now and get upto 100USDT in rewards.</p>
                             </div>
 

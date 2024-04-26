@@ -24,7 +24,7 @@ function Navbar() {
 
     return (
         <>
-            <div className="container-fluid main-nav bg-dark" id="navbar">
+            <div className="container-fluid main-nav bg-custom-dark" id="navbar">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-4 col-md-3 d-flex align-items-center">
