@@ -14,7 +14,7 @@ function MainContent() {
                     <div className="col-lg-8 col-md-8 middle-col">
                         <img src={AdsBig} alt="" />
 
-                        <table class="table">
+                        <table className="table">
                             <thead>
                                 <tr>
                                     <th scope="col"></th>
@@ -27,7 +27,7 @@ function MainContent() {
                             </thead>
                             <tbody>
                                 <tr className='table-danger-bg'>
-                                    <th scope="row"><i class="fa-solid fa-arrow-down-long"></i></th>
+                                    <th scope="row"><i className="fa-solid fa-arrow-down-long"></i></th>
                                     <td className='content-tab'>
                                         <span className='coin-bg'></span>
                                         <span>
@@ -41,7 +41,7 @@ function MainContent() {
                                     <td>%0,9</td>
                                 </tr>
                                 <tr className='table-danger-bg'>
-                                    <th scope="row"><i class="fa-solid fa-arrow-down-long"></i></th>
+                                    <th scope="row"><i className="fa-solid fa-arrow-down-long"></i></th>
                                     <td className='content-tab'>
                                         <span className='coin-bg'></span>
                                         <span>
@@ -55,7 +55,7 @@ function MainContent() {
                                     <td>%0,9</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row"><i class="fa-solid fa-minus"></i></th>
+                                    <th scope="row"><i className="fa-solid fa-minus"></i></th>
                                     <td className='content-tab'>
                                         <span className='coin-bg'></span>
                                         <span>
@@ -69,7 +69,7 @@ function MainContent() {
                                     <td>%0,9</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row"><i class="fa-solid fa-minus"></i></th>
+                                    <th scope="row"><i className="fa-solid fa-minus"></i></th>
                                     <td className='content-tab'>
                                         <span className='coin-bg'></span>
                                         <span>
@@ -83,7 +83,7 @@ function MainContent() {
                                     <td>%0,9</td>
                                 </tr>
                                 <tr className='table-success-bg'>
-                                    <th scope="row"><i class="fa-solid fa-arrow-up-long"></i></th>
+                                    <th scope="row"><i className="fa-solid fa-arrow-up-long"></i></th>
                                     <td className='content-tab'>
                                         <span className='coin-bg'></span>
                                         <span>
@@ -97,7 +97,7 @@ function MainContent() {
                                     <td>%0,9</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row"><i class="fa-solid fa-arrow-down-long"></i></th>
+                                    <th scope="row"><i className="fa-solid fa-arrow-down-long"></i></th>
                                     <td className='content-tab'>
                                         <span className='coin-bg'></span>
                                         <span>
