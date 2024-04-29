@@ -77,6 +77,10 @@
             }
           }
         }
+        .black-bg-head{
+          font-weight: 700;
+          font-size: 24px;
+        }
         .black-box-col{
             .black-inn-wrap{
               background-color: #181A1F;
@@ -93,7 +97,52 @@
                   color: #848E9C;
               }
             }
-
+            .select-dd-wrap{
+              display: flex;
+              justify-content: space-between;
+              .drop-down{
+                background-color: #fff;
+                border-radius: 5px;
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 10px;
+                width: 48%;
+                span.selected-val{
+                  position: relative;
+                  width: 75px;
+                  white-space: nowrap;
+                  &::after{
+                    content: "";
+                    position: absolute;
+                    right: -20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 25px;
+                    width: 2px;
+                    background-color: #848E9C;
+                  }
+                }
+                select{
+                  border: none;
+                  outline: none;
+                  background-color: transparent;
+                  appearance: none;
+                  padding-right: 25px;
+                  position: relative;
+                  background-image: url(./src/images/drop-down.svg);
+                  background-size: 20%;
+                  background-position: right;
+                  background-repeat: no-repeat;
+                  font-size: 14px;
+                  text-align: left;
+                  font-weight: bold;
+                  color: #848E9C;
+                  white-space: nowrap;
+                }
+              }
+            }
         }
         .country-est-list{
             ul{

@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MainContent.scss'
 import AdsBig from '../images/adsBig.png'
 import AdsLarge from '../images/adsLarge.png'
 
+
+
 function MainContent() {
+
+    const [valLeft, setvalLeft] = useState('')
+    const [valRight, setvalRight] = useState('')
+
+    const showChangeRight = (() => {
+        var valueRight = document.getElementById('val-right').value;
+        setvalRight(valueRight);
+    })
+
+    const showChange = (() => {
+        var valueLeft = document.getElementById('val-left').value;
+        setvalLeft(valueLeft);
+    })
+
+    
+
     return (
         <>
             <div className="container addsTable-main-wrapper">
@@ -114,17 +132,47 @@ function MainContent() {
                             </tbody>
                         </table>
 
-                        <div className="row">
+                        <div className="row mt-4">
                             <div className="col-lg-7 col-sm-6 col-sm-12 black-box-col">
                                 <div className="black-inn-wrap">
                                     <h3 className="black-bg-head">Altin Fiyati Hesaplama</h3>
                                     <hr className='blag-bg-hr' />
                                     <div className="select-dd-wrap">
+                                        <div className="drop-down">
+                                            <span className="selected-val" id="selected-val-left">{valLeft}</span>
+                                            <select name="" id="val-left" onChange={showChange}>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram">Gram</option>
+                                                <option value="lsdjf">lsdjf</option>
+                                                <option value="lskdjfiowe">lskdjfiowe</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                            </select>
+                                        </div>
+                                        <div className="drop-down">
+                                            <span className="selected-val" id="selected-val-right">{valRight}</span>
+                                            <select name="" id="val-right" onChange={showChangeRight}>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Turk Lirasi">Turk Lirasi</option>
+                                                <option value="Altin">Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                                <option value="Gram Altin">Gram Altin</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-5 col-sm-12 col-md-6">
-                                <h3 className="black-bg-head">DOVIZ</h3>
+                                <h3 className="black-bg-head mb-4">DOVIZ</h3>
 
                                 <div className="country-est-list">
                                     <ul>
