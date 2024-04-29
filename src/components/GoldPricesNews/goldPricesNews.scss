@@ -4,6 +4,10 @@
 .hide {
   display: none;
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 .goldPricesNews {
   h4 {
     text-decoration: underline;

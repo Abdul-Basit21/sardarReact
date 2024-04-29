@@ -78,204 +78,208 @@ const GoldPricesNews = () => {
                 <div className="col-12 mt-3 table-container">
                   <div className="content">
                     <h5>Beklenen Önemli Ekonomik Olaylar</h5>
-                    <table className="table table-borderless table-responsive">
-                      <thead>
-                        <tr>
-                          <th>Zaman</th>
-                          <th>Döviz</th>
-                          <th>Olay</th>
-                          <th>Önem</th>
-                          <th>Açıklanan</th>
-                          <th className="tar">Beklenti</th>
-                          <th className="tar">Önceki</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>10d</td>
-                          <td>🇪🇺 EUR</td>
-                          <td>AMB'den Lane Konuşma Yapacak</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,20%</td>
-                          <td className="tar">0,10%</td>
-                        </tr>
-                        <tr>
-                          <td>20s 40d</td>
-                          <td>🇨🇭 CHF</td>
-                          <td>Üretici Fiyat Endeksi (ÜFE)</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,51%</td>
-                          <td className="tar">0,20%</td>
-                        </tr>
-                        <tr>
-                          <td>10d</td>
-                          <td>🇪🇺 EUR</td>
-                          <td>AMB'den Lane Konuşma Yapacak</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,20%</td>
-                          <td className="tar">0,10%</td>
-                        </tr>
-                        <tr>
-                          <td>20s 40d</td>
-                          <td>🇨🇭 CHF</td>
-                          <td>Üretici Fiyat Endeksi (ÜFE)</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,51%</td>
-                          <td className="tar">0,20%</td>
-                        </tr>
-                        <tr>
-                          <td>10d</td>
-                          <td>🇪🇺 EUR</td>
-                          <td>AMB'den Lane Konuşma Yapacak</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,20%</td>
-                          <td className="tar">0,10%</td>
-                        </tr>
-                        <tr>
-                          <td>20s 40d</td>
-                          <td>🇨🇭 CHF</td>
-                          <td>Üretici Fiyat Endeksi (ÜFE)</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,51%</td>
-                          <td className="tar">0,20%</td>
-                        </tr>
-                        <tr>
-                          <td>10d</td>
-                          <td>🇪🇺 EUR</td>
-                          <td>AMB'den Lane Konuşma Yapacak</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,20%</td>
-                          <td className="tar">0,10%</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    <div className="table-responsive">
+                      <table className="table table-borderless table-responsive">
+                        <thead>
+                          <tr>
+                            <th>Zaman</th>
+                            <th>Döviz</th>
+                            <th>Olay</th>
+                            <th>Önem</th>
+                            <th>Açıklanan</th>
+                            <th className="tar">Beklenti</th>
+                            <th className="tar">Önceki</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>10d</td>
+                            <td>🇪🇺 EUR</td>
+                            <td>AMB'den Lane Konuşma Yapacak</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,20%</td>
+                            <td className="tar">0,10%</td>
+                          </tr>
+                          <tr>
+                            <td>20s 40d</td>
+                            <td>🇨🇭 CHF</td>
+                            <td>Üretici Fiyat Endeksi (ÜFE)</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,51%</td>
+                            <td className="tar">0,20%</td>
+                          </tr>
+                          <tr>
+                            <td>10d</td>
+                            <td>🇪🇺 EUR</td>
+                            <td>AMB'den Lane Konuşma Yapacak</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,20%</td>
+                            <td className="tar">0,10%</td>
+                          </tr>
+                          <tr>
+                            <td>20s 40d</td>
+                            <td>🇨🇭 CHF</td>
+                            <td>Üretici Fiyat Endeksi (ÜFE)</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,51%</td>
+                            <td className="tar">0,20%</td>
+                          </tr>
+                          <tr>
+                            <td>10d</td>
+                            <td>🇪🇺 EUR</td>
+                            <td>AMB'den Lane Konuşma Yapacak</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,20%</td>
+                            <td className="tar">0,10%</td>
+                          </tr>
+                          <tr>
+                            <td>20s 40d</td>
+                            <td>🇨🇭 CHF</td>
+                            <td>Üretici Fiyat Endeksi (ÜFE)</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,51%</td>
+                            <td className="tar">0,20%</td>
+                          </tr>
+                          <tr>
+                            <td>10d</td>
+                            <td>🇪🇺 EUR</td>
+                            <td>AMB'den Lane Konuşma Yapacak</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,20%</td>
+                            <td className="tar">0,10%</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                   <div className="content hide">
                     <h5>2nd Tab Content will be here</h5>
-                    <table className="table table-borderless table-responsive">
-                      <thead>
-                        <tr>
-                          <th>Zaman</th>
-                          <th>Döviz</th>
-                          <th>Olay</th>
-                          <th>Önem</th>
-                          <th>Açıklanan</th>
-                          <th className="tar">Beklenti</th>
-                          <th className="tar">Önceki</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td>10d</td>
-                          <td>🇪🇺 EUR</td>
-                          <td>AMB'den Lane Konuşma Yapacak</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,20%</td>
-                          <td className="tar">0,10%</td>
-                        </tr>
-                        <tr>
-                          <td>20s 40d</td>
-                          <td>🇨🇭 CHF</td>
-                          <td>Üretici Fiyat Endeksi (ÜFE)</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,51%</td>
-                          <td className="tar">0,20%</td>
-                        </tr>
-                        <tr>
-                          <td>10d</td>
-                          <td>🇪🇺 EUR</td>
-                          <td>AMB'den Lane Konuşma Yapacak</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,20%</td>
-                          <td className="tar">0,10%</td>
-                        </tr>
-                        <tr>
-                          <td>20s 40d</td>
-                          <td>🇨🇭 CHF</td>
-                          <td>Üretici Fiyat Endeksi (ÜFE)</td>
-                          <td>
-                            <div className="stars">
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star"></i>
-                              <i className="fa-solid fa-star light"></i>
-                            </div>
-                          </td>
-                          <td></td>
-                          <td className="tar">0,51%</td>
-                          <td className="tar">0,20%</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                    <div className="table-responsive">
+                      <table className="table table-borderless table-responsive">
+                        <thead>
+                          <tr>
+                            <th>Zaman</th>
+                            <th>Döviz</th>
+                            <th>Olay</th>
+                            <th>Önem</th>
+                            <th>Açıklanan</th>
+                            <th className="tar">Beklenti</th>
+                            <th className="tar">Önceki</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>10d</td>
+                            <td>🇪🇺 EUR</td>
+                            <td>AMB'den Lane Konuşma Yapacak</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,20%</td>
+                            <td className="tar">0,10%</td>
+                          </tr>
+                          <tr>
+                            <td>20s 40d</td>
+                            <td>🇨🇭 CHF</td>
+                            <td>Üretici Fiyat Endeksi (ÜFE)</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,51%</td>
+                            <td className="tar">0,20%</td>
+                          </tr>
+                          <tr>
+                            <td>10d</td>
+                            <td>🇪🇺 EUR</td>
+                            <td>AMB'den Lane Konuşma Yapacak</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,20%</td>
+                            <td className="tar">0,10%</td>
+                          </tr>
+                          <tr>
+                            <td>20s 40d</td>
+                            <td>🇨🇭 CHF</td>
+                            <td>Üretici Fiyat Endeksi (ÜFE)</td>
+                            <td>
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td></td>
+                            <td className="tar">0,51%</td>
+                            <td className="tar">0,20%</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
                 <div className="col-12 bottom-sec">
