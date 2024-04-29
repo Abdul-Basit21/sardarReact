@@ -7,7 +7,7 @@ const GoldGuide = () => {
           <div className="col-12 mb-3">
             <h4>ALTIN REHBERI</h4>
           </div>
-          <div className="col-12 col-lg-6">
+          <div className="col-12 col-lg-6 mb-3 mb-md-0">
             <div className="accordion" id="accordionExample">
               <div className="accordion-item mb-3">
                 <h2 className="accordion-header" id="headingOne">
