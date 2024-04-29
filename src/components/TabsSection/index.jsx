@@ -1,6 +1,5 @@
 import "./TabsSection.scss";
-import arrow_green from "../assets/arrow-green-up.svg";
-import arrow_red from "../assets/arrow-red-down.svg";
+import { arrow_green, arrow_red } from "../../images";
 import { useEffect } from "react";
 import tabs_data from "./TabsSectionConfig";
 const TabsSection = () => {
@@ -19,24 +18,29 @@ const TabsSection = () => {
     //   .catch((error) => console.log("error", error));
   }, []);
   const show_itmes = tabs_data.map((value, index) => {
-    return <div
-      key={index}
-      className="item d-flex align-items-center justify-content-center"
-    >
-      <div className="content d-flex flex-column gap-2">
-        <span className="title">{value.title}</span>
-        <span className="value">{value.rates}</span>
-        <div
-          className={`ratio__ ${
-            value.status == "up" ? "green" : "red"
-          } d-flex align-items-center gap-2`}
-        >
-          <img src={value.status == 'up' ? arrow_green:arrow_red} alt={'arrow-'+value.status} />
-          <span className="percent__">{value.percent}</span>
-          <span className="number__">{value.number}</span>
+    return (
+      <div
+        key={index}
+        className="item d-flex align-items-center justify-content-center"
+      >
+        <div className="content d-flex flex-column gap-2">
+          <span className="title">{value.title}</span>
+          <span className="value">{value.rates}</span>
+          <div
+            className={`ratio__ ${
+              value.status == "up" ? "green" : "red"
+            } d-flex align-items-center gap-2`}
+          >
+            <img
+              src={value.status == "up" ? arrow_green : arrow_red}
+              alt={"arrow-" + value.status}
+            />
+            <span className="percent__">{value.percent}</span>
+            <span className="number__">{value.number}</span>
+          </div>
         </div>
       </div>
-    </div>;
+    );
   });
 
   return (
