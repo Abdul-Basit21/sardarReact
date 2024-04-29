@@ -93,109 +93,172 @@ const GoldPricesNews = () => {
                         </thead>
                         <tbody>
                           <tr>
-                            <td>10d</td>
-                            <td>🇪🇺 EUR</td>
-                            <td>AMB'den Lane Konuşma Yapacak</td>
-                            <td>
+                            <td data-label="Zaman">10d</td>
+                            <td data-label="Döviz">🇪🇺 EUR</td>
+                            <td data-label="Olay">
+                              AMB'den Lane Konuşma Yapacak
+                            </td>
+                            <td data-label="Önem">
                               <div className="stars">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star light"></i>
                               </div>
                             </td>
-                            <td></td>
-                            <td className="tar">0,20%</td>
-                            <td className="tar">0,10%</td>
+                            <td data-label="Açıklanan">&nbsp;</td>
+                            <td data-label="Beklenti" className="tar">
+                              0,20%
+                            </td>
+                            <td data-label="Önceki" className="tar">
+                              0,10%
+                            </td>
                           </tr>
                           <tr>
-                            <td>20s 40d</td>
-                            <td>🇨🇭 CHF</td>
-                            <td>Üretici Fiyat Endeksi (ÜFE)</td>
-                            <td>
+                            <td data-label="Zaman">20s 40d</td>
+                            <td data-label="Döviz">🇨🇭 CHF</td>
+                            <td data-label="Olay">
+                              Üretici Fiyat Endeksi (ÜFE)
+                            </td>
+                            <td data-label="Önem">
                               <div className="stars">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star light"></i>
                               </div>
                             </td>
-                            <td></td>
-                            <td className="tar">0,51%</td>
-                            <td className="tar">0,20%</td>
+                            <td data-label="Açıklanan">&nbsp;</td>
+                            <td data-label="Beklenti" className="tar">
+                              0,51%
+                            </td>
+                            <td data-label="Önceki" className="tar">
+                              0,20%
+                            </td>
                           </tr>
                           <tr>
-                            <td>10d</td>
-                            <td>🇪🇺 EUR</td>
-                            <td>AMB'den Lane Konuşma Yapacak</td>
-                            <td>
+                            <td data-label="Zaman">10d</td>
+                            <td data-label="Döviz">🇪🇺 EUR</td>
+                            <td data-label="Olay">
+                              AMB'den Lane Konuşma Yapacak
+                            </td>
+                            <td data-label="Önem">
                               <div className="stars">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star light"></i>
                               </div>
                             </td>
-                            <td></td>
-                            <td className="tar">0,20%</td>
-                            <td className="tar">0,10%</td>
+                            <td data-label="Açıklanan">&nbsp;</td>
+                            <td data-label="Beklenti" className="tar">
+                              0,20%
+                            </td>
+                            <td data-label="Önceki" className="tar">
+                              0,10%
+                            </td>
                           </tr>
                           <tr>
-                            <td>20s 40d</td>
-                            <td>🇨🇭 CHF</td>
-                            <td>Üretici Fiyat Endeksi (ÜFE)</td>
-                            <td>
+                            <td data-label="Zaman">20s 40d</td>
+                            <td data-label="Döviz">🇨🇭 CHF</td>
+                            <td data-label="Olay">
+                              Üretici Fiyat Endeksi (ÜFE)
+                            </td>
+                            <td data-label="Önem">
                               <div className="stars">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star light"></i>
                               </div>
                             </td>
-                            <td></td>
-                            <td className="tar">0,51%</td>
-                            <td className="tar">0,20%</td>
+                            <td data-label="Açıklanan">&nbsp;</td>
+                            <td data-label="Beklenti" className="tar">
+                              0,51%
+                            </td>
+                            <td data-label="Önceki" className="tar">
+                              0,20%
+                            </td>
                           </tr>
                           <tr>
-                            <td>10d</td>
-                            <td>🇪🇺 EUR</td>
-                            <td>AMB'den Lane Konuşma Yapacak</td>
-                            <td>
+                            <td data-label="Zaman">10d</td>
+                            <td data-label="Döviz">🇪🇺 EUR</td>
+                            <td data-label="Olay">
+                              AMB'den Lane Konuşma Yapacak
+                            </td>
+                            <td data-label="Önem">
                               <div className="stars">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star light"></i>
                               </div>
                             </td>
-                            <td></td>
-                            <td className="tar">0,20%</td>
-                            <td className="tar">0,10%</td>
+                            <td data-label="Açıklanan">&nbsp;</td>
+                            <td data-label="Beklenti" className="tar">
+                              0,20%
+                            </td>
+                            <td data-label="Önceki" className="tar">
+                              0,10%
+                            </td>
                           </tr>
                           <tr>
-                            <td>20s 40d</td>
-                            <td>🇨🇭 CHF</td>
-                            <td>Üretici Fiyat Endeksi (ÜFE)</td>
-                            <td>
+                            <td data-label="Zaman">20s 40d</td>
+                            <td data-label="Döviz">🇨🇭 CHF</td>
+                            <td data-label="Olay">
+                              Üretici Fiyat Endeksi (ÜFE)
+                            </td>
+                            <td data-label="Önem">
                               <div className="stars">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star light"></i>
                               </div>
                             </td>
-                            <td></td>
-                            <td className="tar">0,51%</td>
-                            <td className="tar">0,20%</td>
+                            <td data-label="Açıklanan">&nbsp;</td>
+                            <td data-label="Beklenti" className="tar">
+                              0,51%
+                            </td>
+                            <td data-label="Önceki" className="tar">
+                              0,20%
+                            </td>
                           </tr>
                           <tr>
-                            <td>10d</td>
-                            <td>🇪🇺 EUR</td>
-                            <td>AMB'den Lane Konuşma Yapacak</td>
-                            <td>
+                            <td data-label="Zaman">10d</td>
+                            <td data-label="Döviz">🇪🇺 EUR</td>
+                            <td data-label="Olay">
+                              AMB'den Lane Konuşma Yapacak
+                            </td>
+                            <td data-label="Önem">
                               <div className="stars">
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star light"></i>
                               </div>
                             </td>
-                            <td></td>
-                            <td className="tar">0,20%</td>
-                            <td className="tar">0,10%</td>
+                            <td data-label="Açıklanan">&nbsp;</td>
+                            <td data-label="Beklenti" className="tar">
+                              0,20%
+                            </td>
+                            <td data-label="Önceki" className="tar">
+                              0,10%
+                            </td>
+                          </tr>
+                          <tr>
+                            <td data-label="Zaman">20s 40d</td>
+                            <td data-label="Döviz">🇨🇭 CHF</td>
+                            <td data-label="Olay">
+                              Üretici Fiyat Endeksi (ÜFE)
+                            </td>
+                            <td data-label="Önem">
+                              <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star light"></i>
+                              </div>
+                            </td>
+                            <td data-label="Açıklanan">&nbsp;</td>
+                            <td data-label="Beklenti" className="tar">
+                              0,51%
+                            </td>
+                            <td data-label="Önceki" className="tar">
+                              0,20%
+                            </td>
                           </tr>
                         </tbody>
                       </table>
