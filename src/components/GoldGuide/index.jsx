@@ -2,7 +2,7 @@ import "./goldGuide.scss";
 const GoldGuide = () => {
   return (
     <>
-      <div className="container gold-guide">
+      <div className="container gold-guide mb-5">
         <div className="row">
           <div className="col-12 mb-3">
             <h4>ALTIN REHBERI</h4>
@@ -19,7 +19,7 @@ const GoldGuide = () => {
                     aria-expanded="false"
                     aria-controls="collapseOne"
                   >
-                    Altın Hesabı Nasıl Açılır?
+                    Altin Hesabi Nasil Açilir?
                   </button>
                 </h2>
                 <div
@@ -51,7 +51,7 @@ const GoldGuide = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Altın Çeşitleri Nelerdir?
+                    Altin Çeşitleri Nelerdir?
                   </button>
                 </h2>
                 <div
@@ -87,7 +87,7 @@ const GoldGuide = () => {
                     aria-expanded="false"
                     aria-controls="collapseOne1"
                   >
-                    Altın Transferi Sistemi
+                    Altin Transferi Sistemi
                   </button>
                 </h2>
                 <div
@@ -119,7 +119,7 @@ const GoldGuide = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo1"
                   >
-                    Kredi Kartı ile Altın Alınabilir mi?
+                    Kredi Karti ile Altin Alinabilir mi?
                   </button>
                 </h2>
                 <div

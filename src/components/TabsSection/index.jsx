@@ -72,13 +72,13 @@ const TabsSection = () => {
             </div>
           </div>
           <div className="row mt-4">
-            <div className="col-6">
+            <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="left-info d-flex align-items-center gap-5">
                 <h5 className="info-title">SON HABERLER</h5>
                 <p>JPMorgan gelirlerini yüzde 9 artirdi</p>
               </div>
             </div>
-            <div className="col-6 right-info">
+            <div className="col-lg-6 col-md-6 col-sm-12 right-info">
               <a href="#!" className="all-news">
                 Tüm Haberler
               </a>

@@ -13,7 +13,7 @@ function Footer() {
             <div className="container-fluid footer-main-wrapper">
                 <div className="container">
                     <div className="row ">
-                        <div className="col-lg-4 col-md-6 col-sm-12 foot-logo">
+                        <div className="col-lg-4 col-md-6 col-12 foot-logo mb-5">
                             <img src={LogoWhite} alt="" />
 
                             <div className="foot-icons-wrap">
@@ -29,7 +29,7 @@ function Footer() {
                                 <a href=""><i className="fa-solid fa-ellipsis"></i></a>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-6 col-sm-12 foot-links-col">
+                        <div className="col-lg-2 col-md-6 col-6 foot-links-col">
                             <h2 className="foot-head">Hakkimizda</h2>
                             <ul className="foot-links">
                                 <li><a href="">About</a></li>
@@ -50,7 +50,7 @@ function Footer() {
                                 <li><a href="">Desktop Application</a></li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 col-md-6 col-sm-12 foot-links-col">
+                        <div className="col-lg-2 col-md-6 col-6 foot-links-col">
                             <h2 className="foot-head">Sayfalar</h2>
                             <ul className="foot-links">
                                 <li><a href="">Altin fiyatlari</a></li>
@@ -60,7 +60,7 @@ function Footer() {
                                 <li><a href="">Kripto</a></li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 col-md-6 col-sm-12 foot-links-col">
+                        <div className="col-lg-2 col-md-6 col-6 foot-links-col">
                             <h2 className="foot-head">Bilgi</h2>
                             <ul className="foot-links">
                                 <li><a href="">Hesaplama</a></li>
@@ -73,7 +73,7 @@ function Footer() {
                                 <li><a href="">En çok kazandiran hisseler</a></li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 col-md-6 col-sm-12 foot-links-col">
+                        <div className="col-lg-2 col-md-6 col-6 foot-links-col">
                             <h2 className="foot-head">Bilgi</h2>
                             <ul className="foot-links">
                                 <li><a href="">Hesaplama</a></li>
@@ -88,7 +88,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="row footer-form-section">
-                        <div className="col-lg-7 col-md-6 col-sm-12">
+                        <div className="col-lg-7 col-md-6 col-sm-12 mb-4 mb-md-0 mb-lg-0">
                             <h3 className="footer-app-head">Diğer projelerimiz</h3>
                             <div className="footer-apps">
                                 <img src={Sabah} alt="" />
@@ -96,7 +96,7 @@ function Footer() {
                                 <img src={Spotify} alt="" />
                             </div>
                         </div>
-                        <div className="col-lg-5 col-md-6 col-sm-12 foot-form d-flex justify-content-end">
+                        <div className="col-lg-5 col-md-6 col-sm-12 foot-form d-flex justify-content-end ">
                             <form className="d-flex">
                                 <input className="form-control me-2" type="search" placeholder="Email/Phone number" />
                                 <button className="btn btn-warning bg-warning" type="submit">Sign Up</button>

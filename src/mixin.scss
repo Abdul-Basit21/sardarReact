@@ -1,0 +1,11 @@
+@mixin responsive($size) {
+  @if ($size == "desktop") {
+    @media (min-width: 992.1px) {
+      @content;
+    }
+  } @else if($size == "mobile") {
+    @media (max-width: 992px) {
+      @content;
+    }
+  }
+}

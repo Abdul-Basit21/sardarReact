@@ -171,7 +171,7 @@ function MainContent() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-5 col-sm-12 col-md-6">
+                            <div className="col-lg-5 col-sm-12 col-md-6 my-5 my-md-0 my-lg-0">
                                 <h3 className="black-bg-head mb-4">DOVIZ</h3>
 
                                 <div className="country-est-list">
