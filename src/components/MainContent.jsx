@@ -46,17 +46,17 @@ function MainContent() {
                             <tbody>
                                 <tr className='table-danger-bg'>
                                     <th scope="row"><i className="fa-solid fa-arrow-down-long"></i></th>
-                                    <td className='content-tab'>
+                                    <td data-label="Brim" className='content-tab'>
                                         <span className='coin-bg'></span>
                                         <span>
                                             <h4>Gram Altin</h4>
                                             <p>Gram Altin</p>
                                         </span>
                                     </td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>2459, 265 TL</td>
-                                    <td>%0,9</td>
+                                    <td data-label="Acilis">2459, 265 TL</td>
+                                    <td data-label="Alis">2459, 265 TL</td>
+                                    <td data-label="Satris">2459, 265 TL</td>
+                                    <td data-label="Degisim">%0,9</td>
                                 </tr>
                                 <tr className='table-danger-bg'>
                                     <th scope="row"><i className="fa-solid fa-arrow-down-long"></i></th>
