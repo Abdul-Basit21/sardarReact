@@ -5,14 +5,14 @@
     font-weight: 700;
   }
   .accordion-item {
-    //     &:first-of-type {
-    //       border-top-left-radius: 0;
-    //       border-top-right-radius: 0;
-    //     }
-    //     &:last-of-type {
-    //       border-bottom-right-radius: 0;
-    //       border-bottom-left-radius: 0;
-    //     }
+    &:first-of-type,
+    &:last-of-type {
+      border-radius: 5px;
+      overflow: hidden;
+      button {
+            color: #a9a9a9;
+      }
+    }
     &:focus {
       box-shadow: none;
     }
