@@ -39,7 +39,49 @@ function Navbar() {
                         <div className="col-lg-3 col-md-3 col-8 d-flex align-items-center justify-content-center col-right">
                             <div className="nav-right-col">
                                 <div className="nav-acc-info">
-                                    <img src={Person} alt="" />
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <img src={Person} alt="" />
+                                    </a>
+                                    {/* <!-- Button trigger modal --> */}
+                                    {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Launch demo modal
+                                    </button> */}
+
+                                    {/* <!-- Modal --> */}
+                                    <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="modal-content">
+                                                <div className="modal-header">
+                                                    <h5 className="modal-title" id="exampleModalLabel">Please sign in</h5>
+                                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div className="modal-body">
+                                                    <form className='form-signin'> 
+                                                        <div className="form-floating">
+                                                            <input type="email" className="form-control" id="floatingInput" />
+                                                            <label for="floatingInput">Email address</label>
+                                                        </div>
+                                                        <div className="form-floating">
+                                                            <input type="password" className="form-control" id="floatingPassword" />
+                                                            <label for="floatingPassword">Password</label>
+                                                        </div>
+
+                                                        <div className="checkbox mb-3">
+                                                            <label>
+                                                                <input type="checkbox" value="remember-me" /> Remember me
+                                                            </label>
+                                                        </div>
+                                                        <button className="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                                                    </form>
+                                                </div>
+                                                <div className="modal-footer">
+                                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" className="btn btn-primary">Save changes</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
                                     <img src={Mode} alt="" />
                                 </div>
                                 <span id="curr-time">
