@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.scss'
 import Logo from "../images/Logo.svg";
 import Person from "../images/Login.svg";
 import Mode from "../images/mode.svg";
+import LightMode from "../images/lightMode.svg";
 
 
 function Navbar() {
@@ -22,9 +23,30 @@ function Navbar() {
     }
     setInterval(displayTime, 1000)
 
+
+    const [myStyle, setMyyStyle] = useState({
+        color: '#fff'
+    })
+
+    var element = document.querySelector('body');
+    const toggleSwitch = () => {
+        if (myStyle.color === "#fff") {
+            element.classList.add('dark_theme')
+            setMyyStyle({
+                color: '#000'
+            })
+        }
+        else {
+            element.classList.remove('dark_theme')
+            setMyyStyle({
+                color: '#fff'
+            })
+        }
+    }
+
     return (
         <>
-            <div className="container-fluid main-nav bg-custom-dark" id="navbar">
+            <div className="container-fluid main-nav bg-custom-dark" id="navbar" style={myStyle}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-4 col-md-3 d-flex align-items-center col-logo">
@@ -56,14 +78,14 @@ function Navbar() {
                                                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div className="modal-body">
-                                                    <form className='form-signin'> 
+                                                    <form className='form-signin'>
                                                         <div className="form-floating">
                                                             <input type="email" className="form-control" id="floatingInput" />
-                                                            <label for="floatingInput">Email address</label>
+                                                            <label htmlFor="floatingInput">Email address</label>
                                                         </div>
                                                         <div className="form-floating">
                                                             <input type="password" className="form-control" id="floatingPassword" />
-                                                            <label for="floatingPassword">Password</label>
+                                                            <label htmlFor="floatingPassword">Password</label>
                                                         </div>
 
                                                         <div className="checkbox mb-3">
@@ -82,7 +104,10 @@ function Navbar() {
                                             </div>
                                         </div>
                                     </div>
-                                    <img src={Mode} alt="" />
+                                    <button onClick={toggleSwitch} className='dark-mode'>
+                                        <img src={Mode} alt="" />
+                                    </button>
+
                                 </div>
                                 <span id="curr-time">
                                     <span id="hrs">00</span>

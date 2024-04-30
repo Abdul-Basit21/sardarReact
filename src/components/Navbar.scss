@@ -61,6 +61,7 @@
             font-size: 22px;
             font-weight: 600;
             // font-family: ;
+            width: 112px;
           }
         }
       }
@@ -148,4 +149,9 @@ button.btn-close{
     left: 50%;
     top: 50%;
     width: 100%;
+}
+
+button.dark-mode {
+    background-color: transparent;
+    border: none;
 }

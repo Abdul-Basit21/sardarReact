@@ -16,3 +16,55 @@ body {
 .bg-custom-dark {
   background-color: #181a1f;
 }
+
+
+body.dark_theme{
+  background-color: #181a1f;
+}
+
+body.dark_theme .addsTable-main-wrapper{
+  background-color: #181a1f;
+}
+body.dark_theme .addsTable-main-wrapper table *:not(span) {
+  color: #fff !important;
+  background-color: #181a1f;
+}
+
+body.dark_theme .addsTable-main-wrapper table span h4, body.dark_theme .addsTable-main-wrapper table span p, body.dark_theme .addsTable-main-wrapper table i  {
+  color: #fff !important;
+  background-color: transparent !important;
+}
+
+body.dark_theme .addsTable-main-wrapper .black-inn-wrap{
+  background-color: #fff !important;
+}
+
+body.dark_theme .addsTable-main-wrapper .black-inn-wrap h3{
+  color: #000 !important;
+}
+
+body.dark_theme .addsTable-main-wrapper .row > div.middle-col .black-box-col .select-dd-wrap .drop-down{
+  background-color: #181a1f !important;
+  color: #fff !important;
+}
+
+body.dark_theme .addsTable-main-wrapper .row > div.middle-col .black-box-col .select-dd-wrap .drop-down select
+{
+  background-image: url(./src/images/drop-down-white.svg)  !important; 
+}
+
+body.dark_theme .addsTable-main-wrapper .row > div.middle-col .black-bg-head{
+  color: #fff;
+}
+
+
+
+body.dark_theme .goldPricesNews *{
+  color: #fff !important;
+  background-color: #181a1f !important;
+}
+
+
+body.dark_theme .new-container-main *:not(a.post-link){
+  color: #fff !important;
+}

@@ -16,7 +16,7 @@ function NewsSection() {
                                 <img src={item.icon} alt={item.title} />
                                 <div>
                                     <h2 className="news-title">{item.title}</h2>
-                                    <a href={item.link} target='_blank'>Gundem</a>
+                                    <a href={item.link} target='_blank' className='post-link'>Gundem</a>
                                 </div>
                             </div>
                         </div>

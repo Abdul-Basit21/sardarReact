@@ -11,6 +11,7 @@
       }
       &.middle-col {
         table {
+          border: 1px solid #f1f0f7;
           margin-top: 50px;
           tr.table-danger-bg {
             background-color: #f7b8b8;
@@ -33,13 +34,14 @@
 
           tr {
             vertical-align: middle;
-            border-color: #f1f0f7;
-            height: 64px;
+            border-color: #f1f0f7 !important;
+            height: 65px;
+            border-bottom: 1px solid;
             td.content-tab {
               display: flex;
               align-items: center;
               gap: 10px;
-              height: 64.5px;
+              height: 65px;
               span.coin-bg {
                 display: block;
                 width: 35px;
