@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Navbar.scss'
 import Logo from "../images/Logo.svg";
 import Person from "../images/Login.svg";
@@ -43,6 +43,22 @@ function Navbar() {
             })
         }
     }
+
+
+    useEffect(() => {
+        const sectionTop = document.querySelector('#navbar');
+        window.addEventListener('scroll', function () {
+            if (window.scrollY >= 80) {
+                // console.log('okc');
+                sectionTop.classList.add('active_nav');
+            } else {
+                // console.log('lsdjkfljasd');
+                sectionTop.classList.remove('active_nav');
+
+            }
+        })
+    }, []);
+
 
     return (
         <>
