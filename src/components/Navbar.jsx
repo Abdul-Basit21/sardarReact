@@ -18,16 +18,16 @@ function Navbar() {
         document.getElementById('hrs').innerHTML = hrs;
         document.getElementById('min').innerHTML = min;
         document.getElementById('sec').innerHTML = sec;
-      
-      }
-      setInterval(displayTime, 1000)
+
+    }
+    setInterval(displayTime, 1000)
 
     return (
         <>
             <div className="container-fluid main-nav bg-custom-dark" id="navbar">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-sm-4 col-md-3 d-flex align-items-center">
+                        <div className="col-lg-3 col-4 col-md-3 d-flex align-items-center col-logo">
                             <img src={Logo} alt="" />
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12">
@@ -36,7 +36,7 @@ function Navbar() {
                                 {/* <button className="btn btn-outline-success" type="submit">Search</button> */}
                             </form>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-2 d-flex align-items-center justify-content-center">
+                        <div className="col-lg-3 col-md-3 col-8 d-flex align-items-center justify-content-center col-right">
                             <div className="nav-right-col">
                                 <div className="nav-acc-info">
                                     <img src={Person} alt="" />

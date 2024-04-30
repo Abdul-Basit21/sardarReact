@@ -1,7 +1,10 @@
 .footer-main-wrapper{
     background-color: #181A1F;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 80px;
+    @media (max-width: 768px){
+        padding-top: 50px;
+    }
     .foot-logo{
         .foot-icons-wrap{
             margin-top: 100px;
