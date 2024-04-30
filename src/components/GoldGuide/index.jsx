@@ -1,5 +1,15 @@
+// import { useEffect, useState } from "react";
 import "./goldGuide.scss";
 const GoldGuide = () => {
+  // const [tabs, setTabs] = useState([]);
+  // fetch("http://127.0.0.1:8000/api/test")
+  //   .then((response) => response.json())
+  //   .then((data) => setTabs(data))
+  //   .catch((error) => console.error(error));
+  // useEffect(() => {
+  //   console.log(tabs);
+  // }, [tabs]);
+
   return (
     <>
       <div className="container gold-guide mb-5">
