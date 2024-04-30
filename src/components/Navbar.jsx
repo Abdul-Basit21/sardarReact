@@ -105,7 +105,7 @@ function Navbar() {
                                         </div>
                                     </div>
                                     <button onClick={toggleSwitch} className='dark-mode'>
-                                        <img src={Mode} alt="" />
+                                        <img src={(myStyle.color === "#fff") ? Mode : LightMode } alt="" />
                                     </button>
 
                                 </div>
