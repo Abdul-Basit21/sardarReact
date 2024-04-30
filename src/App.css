@@ -57,7 +57,9 @@ body.dark_theme .addsTable-main-wrapper .row > div.middle-col .black-bg-head{
   color: #fff;
 }
 
-
+body.dark_theme .country-est-list span {
+  color: #fff;
+}
 
 body.dark_theme .goldPricesNews *{
   color: #fff !important;
